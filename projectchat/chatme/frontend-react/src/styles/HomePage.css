@@ -1,0 +1,133 @@
+.homepage {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color:  #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  .welcome {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.logo-small {
+  width: 56px;
+  height: 56px;
+}
+
+
+  .homepage label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: auto;
+    font-weight: bold;
+  }
+  
+  .homepage h1 {
+    margin-bottom: 20px;
+  }
+  
+  .homepage form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .homepage input[type="text"],
+  .homepage input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: auto;
+  }
+  
+  
+  .homepage button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 0;  
+  }
+  
+  .homepage button:hover {
+    background-color: #218838;
+  }
+
+  .homepage button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+  .section {
+  padding: 20px;
+  border: 1px solid #e1e1e1;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.homepage input[type="file"],
+.homepage input[type="text"] {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.success-msg {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .homepage {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .section {
+    padding: 15px;
+    margin-bottom: 16px;
+  }
+
+  .homepage button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .homepage input[type="text"],
+  .homepage input[type="file"] {
+    font-size: 14px;
+  }
+
+  .homepage h1 {
+    font-size: 24px;
+  }
+
+  .section h2 {
+    font-size: 16px;
+  }
+}
